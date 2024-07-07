@@ -33,6 +33,7 @@
             this.content_panel = new System.Windows.Forms.Panel();
             this.caption_panel = new System.Windows.Forms.Panel();
             this.menu_panel = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tlp_buttonsHolder = new System.Windows.Forms.TableLayoutPanel();
             this.btn_volume = new FontAwesome.Sharp.IconButton();
             this.btn_date_time = new FontAwesome.Sharp.IconButton();
@@ -45,13 +46,14 @@
             this.btn_minimize = new FontAwesome.Sharp.IconButton();
             this.btn_resize = new FontAwesome.Sharp.IconButton();
             this.btn_exit = new FontAwesome.Sharp.IconButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lb_menu_title = new System.Windows.Forms.Label();
             this.main_panel.SuspendLayout();
+            this.caption_panel.SuspendLayout();
             this.menu_panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tlp_buttonsHolder.SuspendLayout();
             this.dashboard_panel.SuspendLayout();
             this.title_bar_panel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // main_panel
@@ -61,28 +63,29 @@
             this.main_panel.Controls.Add(this.menu_panel);
             this.main_panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.main_panel.Location = new System.Drawing.Point(0, 0);
-            this.main_panel.Margin = new System.Windows.Forms.Padding(2);
+            this.main_panel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.main_panel.Name = "main_panel";
-            this.main_panel.Size = new System.Drawing.Size(864, 591);
+            this.main_panel.Size = new System.Drawing.Size(1152, 727);
             this.main_panel.TabIndex = 0;
             // 
             // content_panel
             // 
             this.content_panel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.content_panel.Location = new System.Drawing.Point(200, 95);
-            this.content_panel.Margin = new System.Windows.Forms.Padding(2);
+            this.content_panel.Location = new System.Drawing.Point(267, 117);
+            this.content_panel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.content_panel.Name = "content_panel";
-            this.content_panel.Size = new System.Drawing.Size(664, 496);
+            this.content_panel.Size = new System.Drawing.Size(885, 610);
             this.content_panel.TabIndex = 3;
             // 
             // caption_panel
             // 
             this.caption_panel.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.caption_panel.Controls.Add(this.lb_menu_title);
             this.caption_panel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.caption_panel.Location = new System.Drawing.Point(200, 0);
-            this.caption_panel.Margin = new System.Windows.Forms.Padding(2);
+            this.caption_panel.Location = new System.Drawing.Point(267, 0);
+            this.caption_panel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.caption_panel.Name = "caption_panel";
-            this.caption_panel.Size = new System.Drawing.Size(664, 95);
+            this.caption_panel.Size = new System.Drawing.Size(885, 117);
             this.caption_panel.TabIndex = 2;
             // 
             // menu_panel
@@ -93,10 +96,21 @@
             this.menu_panel.Controls.Add(this.dashboard_panel);
             this.menu_panel.Dock = System.Windows.Forms.DockStyle.Left;
             this.menu_panel.Location = new System.Drawing.Point(0, 0);
-            this.menu_panel.Margin = new System.Windows.Forms.Padding(2);
+            this.menu_panel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.menu_panel.Name = "menu_panel";
-            this.menu_panel.Size = new System.Drawing.Size(200, 591);
+            this.menu_panel.Size = new System.Drawing.Size(267, 727);
             this.menu_panel.TabIndex = 1;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(44, 496);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(172, 111);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // tlp_buttonsHolder
             // 
@@ -109,8 +123,8 @@
             this.tlp_buttonsHolder.Controls.Add(this.btn_currency, 0, 0);
             this.tlp_buttonsHolder.Dock = System.Windows.Forms.DockStyle.Top;
             this.tlp_buttonsHolder.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.tlp_buttonsHolder.Location = new System.Drawing.Point(0, 95);
-            this.tlp_buttonsHolder.Margin = new System.Windows.Forms.Padding(2);
+            this.tlp_buttonsHolder.Location = new System.Drawing.Point(0, 117);
+            this.tlp_buttonsHolder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tlp_buttonsHolder.Name = "tlp_buttonsHolder";
             this.tlp_buttonsHolder.RowCount = 5;
             this.tlp_buttonsHolder.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -118,7 +132,7 @@
             this.tlp_buttonsHolder.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tlp_buttonsHolder.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tlp_buttonsHolder.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tlp_buttonsHolder.Size = new System.Drawing.Size(200, 259);
+            this.tlp_buttonsHolder.Size = new System.Drawing.Size(267, 319);
             this.tlp_buttonsHolder.TabIndex = 1;
             // 
             // btn_volume
@@ -133,11 +147,11 @@
             this.btn_volume.IconColor = System.Drawing.Color.White;
             this.btn_volume.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_volume.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_volume.Location = new System.Drawing.Point(0, 204);
+            this.btn_volume.Location = new System.Drawing.Point(0, 252);
             this.btn_volume.Margin = new System.Windows.Forms.Padding(0);
             this.btn_volume.Name = "btn_volume";
-            this.btn_volume.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_volume.Size = new System.Drawing.Size(200, 55);
+            this.btn_volume.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
+            this.btn_volume.Size = new System.Drawing.Size(267, 67);
             this.btn_volume.TabIndex = 8;
             this.btn_volume.Text = "Volume";
             this.btn_volume.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -159,11 +173,11 @@
             this.btn_date_time.IconColor = System.Drawing.Color.White;
             this.btn_date_time.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_date_time.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_date_time.Location = new System.Drawing.Point(0, 153);
+            this.btn_date_time.Location = new System.Drawing.Point(0, 189);
             this.btn_date_time.Margin = new System.Windows.Forms.Padding(0);
             this.btn_date_time.Name = "btn_date_time";
-            this.btn_date_time.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_date_time.Size = new System.Drawing.Size(200, 51);
+            this.btn_date_time.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
+            this.btn_date_time.Size = new System.Drawing.Size(267, 63);
             this.btn_date_time.TabIndex = 7;
             this.btn_date_time.Text = "Date and Time";
             this.btn_date_time.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -185,11 +199,11 @@
             this.btn_data.IconColor = System.Drawing.Color.White;
             this.btn_data.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_data.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_data.Location = new System.Drawing.Point(0, 102);
+            this.btn_data.Location = new System.Drawing.Point(0, 126);
             this.btn_data.Margin = new System.Windows.Forms.Padding(0);
             this.btn_data.Name = "btn_data";
-            this.btn_data.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_data.Size = new System.Drawing.Size(200, 51);
+            this.btn_data.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
+            this.btn_data.Size = new System.Drawing.Size(267, 63);
             this.btn_data.TabIndex = 6;
             this.btn_data.Text = "Data";
             this.btn_data.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -211,11 +225,11 @@
             this.btn_length.IconColor = System.Drawing.Color.White;
             this.btn_length.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_length.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_length.Location = new System.Drawing.Point(0, 51);
+            this.btn_length.Location = new System.Drawing.Point(0, 63);
             this.btn_length.Margin = new System.Windows.Forms.Padding(0);
             this.btn_length.Name = "btn_length";
-            this.btn_length.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_length.Size = new System.Drawing.Size(200, 51);
+            this.btn_length.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
+            this.btn_length.Size = new System.Drawing.Size(267, 63);
             this.btn_length.TabIndex = 5;
             this.btn_length.Text = "Length";
             this.btn_length.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -240,8 +254,8 @@
             this.btn_currency.Location = new System.Drawing.Point(0, 0);
             this.btn_currency.Margin = new System.Windows.Forms.Padding(0);
             this.btn_currency.Name = "btn_currency";
-            this.btn_currency.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btn_currency.Size = new System.Drawing.Size(200, 51);
+            this.btn_currency.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
+            this.btn_currency.Size = new System.Drawing.Size(267, 63);
             this.btn_currency.TabIndex = 0;
             this.btn_currency.Text = "Currency";
             this.btn_currency.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -257,15 +271,15 @@
             this.dashboard_panel.Controls.Add(this.dashboard_btn);
             this.dashboard_panel.Dock = System.Windows.Forms.DockStyle.Top;
             this.dashboard_panel.Location = new System.Drawing.Point(0, 0);
-            this.dashboard_panel.Margin = new System.Windows.Forms.Padding(2);
+            this.dashboard_panel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dashboard_panel.Name = "dashboard_panel";
-            this.dashboard_panel.Size = new System.Drawing.Size(200, 95);
+            this.dashboard_panel.Size = new System.Drawing.Size(267, 117);
             this.dashboard_panel.TabIndex = 0;
             // 
             // dashboard_btn
             // 
             this.dashboard_btn.BackColor = System.Drawing.Color.Transparent;
-            this.dashboard_btn.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dashboard_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dashboard_btn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(50)))));
             this.dashboard_btn.FlatAppearance.BorderSize = 0;
             this.dashboard_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(50)))));
@@ -277,13 +291,15 @@
             this.dashboard_btn.IconColor = System.Drawing.SystemColors.ButtonFace;
             this.dashboard_btn.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.dashboard_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.dashboard_btn.Location = new System.Drawing.Point(0, 24);
-            this.dashboard_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.dashboard_btn.Location = new System.Drawing.Point(0, 0);
+            this.dashboard_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dashboard_btn.Name = "dashboard_btn";
-            this.dashboard_btn.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.dashboard_btn.Size = new System.Drawing.Size(200, 71);
+            this.dashboard_btn.Padding = new System.Windows.Forms.Padding(27, 45, 0, 0);
+            this.dashboard_btn.Size = new System.Drawing.Size(267, 117);
             this.dashboard_btn.TabIndex = 0;
             this.dashboard_btn.Text = "Dashboard";
+            this.dashboard_btn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.dashboard_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.dashboard_btn.UseVisualStyleBackColor = false;
             this.dashboard_btn.Click += new System.EventHandler(this.dashboard_btn_Click);
             // 
@@ -297,7 +313,7 @@
             this.title_bar_panel.Location = new System.Drawing.Point(0, 0);
             this.title_bar_panel.Margin = new System.Windows.Forms.Padding(0);
             this.title_bar_panel.Name = "title_bar_panel";
-            this.title_bar_panel.Size = new System.Drawing.Size(864, 25);
+            this.title_bar_panel.Size = new System.Drawing.Size(1152, 31);
             this.title_bar_panel.TabIndex = 1;
             this.title_bar_panel.Paint += new System.Windows.Forms.PaintEventHandler(this.title_bar_panel_Paint);
             this.title_bar_panel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.title_bar_panel_MouseDown);
@@ -314,10 +330,10 @@
             this.btn_minimize.IconColor = System.Drawing.Color.White;
             this.btn_minimize.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_minimize.IconSize = 20;
-            this.btn_minimize.Location = new System.Drawing.Point(785, 4);
-            this.btn_minimize.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_minimize.Location = new System.Drawing.Point(1047, 5);
+            this.btn_minimize.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_minimize.Name = "btn_minimize";
-            this.btn_minimize.Size = new System.Drawing.Size(20, 19);
+            this.btn_minimize.Size = new System.Drawing.Size(27, 23);
             this.btn_minimize.TabIndex = 2;
             this.btn_minimize.UseVisualStyleBackColor = false;
             this.btn_minimize.Click += new System.EventHandler(this.btn_minimize_Click);
@@ -337,10 +353,10 @@
             this.btn_resize.IconColor = System.Drawing.Color.White;
             this.btn_resize.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_resize.IconSize = 20;
-            this.btn_resize.Location = new System.Drawing.Point(810, 4);
-            this.btn_resize.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_resize.Location = new System.Drawing.Point(1080, 5);
+            this.btn_resize.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_resize.Name = "btn_resize";
-            this.btn_resize.Size = new System.Drawing.Size(20, 19);
+            this.btn_resize.Size = new System.Drawing.Size(27, 23);
             this.btn_resize.TabIndex = 1;
             this.btn_resize.UseVisualStyleBackColor = false;
             this.btn_resize.Click += new System.EventHandler(this.btn_resize_Click);
@@ -360,43 +376,45 @@
             this.btn_exit.IconColor = System.Drawing.Color.White;
             this.btn_exit.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_exit.IconSize = 20;
-            this.btn_exit.Location = new System.Drawing.Point(835, 4);
-            this.btn_exit.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_exit.Location = new System.Drawing.Point(1113, 5);
+            this.btn_exit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(20, 19);
+            this.btn_exit.Size = new System.Drawing.Size(27, 23);
             this.btn_exit.TabIndex = 0;
             this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             this.btn_exit.MouseEnter += new System.EventHandler(this.btn_exit_MouseEnter);
             this.btn_exit.MouseLeave += new System.EventHandler(this.btn_exit_MouseLeave);
             // 
-            // pictureBox1
+            // lb_menu_title
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(33, 403);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(129, 90);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.lb_menu_title.AutoSize = true;
+            this.lb_menu_title.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.lb_menu_title.Location = new System.Drawing.Point(24, 66);
+            this.lb_menu_title.Name = "lb_menu_title";
+            this.lb_menu_title.Size = new System.Drawing.Size(197, 29);
+            this.lb_menu_title.TabIndex = 0;
+            this.lb_menu_title.Text = "Dashboard Menu";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(864, 591);
+            this.ClientSize = new System.Drawing.Size(1152, 727);
             this.Controls.Add(this.title_bar_panel);
             this.Controls.Add(this.main_panel);
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.MinimumSize = new System.Drawing.Size(618, 527);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MinimumSize = new System.Drawing.Size(818, 638);
             this.Name = "Form1";
             this.Text = "Form1";
             this.main_panel.ResumeLayout(false);
+            this.caption_panel.ResumeLayout(false);
+            this.caption_panel.PerformLayout();
             this.menu_panel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tlp_buttonsHolder.ResumeLayout(false);
             this.dashboard_panel.ResumeLayout(false);
             this.title_bar_panel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -420,6 +438,7 @@
         private FontAwesome.Sharp.IconButton dashboard_btn;
         private System.Windows.Forms.Panel content_panel;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lb_menu_title;
     }
 }
 

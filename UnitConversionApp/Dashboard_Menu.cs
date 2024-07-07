@@ -29,42 +29,62 @@ namespace UnitConversionApp
 
         private void currency_panel_MouseEnter(object sender, EventArgs e)
         {
-            currency_panel.BackColor = Color.LightGray;
+           // currency_panel.BackColor = Color.LightGray;
         }
 
         private void currency_panel_MouseLeave(object sender, EventArgs e)
         {
-            currency_panel.BackColor = Color.White;
+         //   currency_panel.BackColor = Color.White;
         }
 
         private void length_panel_MouseEnter(object sender, EventArgs e)
         {
-            length_panel.BackColor = Color.LightGray;
+          //  length_panel.BackColor = Color.LightGray;
         }
 
         private void length_panel_MouseLeave(object sender, EventArgs e)
         {
-            length_panel.BackColor = Color.White;
+           // length_panel.BackColor = Color.White;
         }
 
         private void data_panel_MouseEnter(object sender, EventArgs e)
         {
-            data_panel.BackColor = Color.LightGray;
+          //  data_panel.BackColor = Color.LightGray;
         }
 
         private void data_panel_MouseLeave(object sender, EventArgs e)
         {
-            data_panel.BackColor = Color.White;
+           // data_panel.BackColor = Color.White;
         }
 
         private void volume_panel_MouseEnter(object sender, EventArgs e)
         {
-            volume_panel.BackColor = Color.LightGray;
+           // volume_panel.BackColor = Color.LightGray;
         }
 
         private void volume_panel_MouseLeave(object sender, EventArgs e)
         {
-            volume_panel.BackColor = Color.White;
+            //volume_panel.BackColor = Color.White;
+        }
+
+        private void iconPictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconPictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

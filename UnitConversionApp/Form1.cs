@@ -21,15 +21,20 @@ namespace UnitConversionApp
 
         Currency_Menu currency_Menu;
         Length_Menu length_menu;
-        Data_Converter_Menu data_converter_menu;
+        //Data_Converter_Menu data_converter_menu;
         Date_Time_Converter_Menu date_time_converter_menu;
         Volume_Converter_Menu volume_converter_menu;
+        Data_Menu data_menu;
+        Dashboard_Menu start_menu;
         public Form1()
         {
             InitializeComponent();
             initialize_buttons();
             title_bar_init();
             InitializeAdditionalForms();
+
+            content_panel.Controls.Clear();
+            content_panel.Controls.Add(start_menu);
         }
 
         [DllImport("user32.dll")]
@@ -60,6 +65,8 @@ namespace UnitConversionApp
             isHovered.Add(btn_data, false);
             isHovered.Add(btn_date_time, false);
             isHovered.Add(btn_volume, false);
+
+           // dashboard_btn.TextAlign = ContentAlignment.MiddleCenter;
         }
 
         private void myButton_Paint(object sender, PaintEventArgs e)
@@ -194,25 +201,33 @@ namespace UnitConversionApp
 
         private void dashboard_btn_Click(object sender, EventArgs e)
         {
-            Dashboard_Menu start_menu = new Dashboard_Menu();
-            start_menu.Dock = DockStyle.Fill;
+            this.Size = new Size(1165, 720);
             content_panel.Controls.Clear();
             content_panel.Controls.Add(start_menu);
+            caption_panel.BackColor = Color.LightSkyBlue;
+            lb_menu_title.Text = "Dashboard Menu";
         }
 
         private void InitializeAdditionalForms()
         {
+
+            start_menu = new Dashboard_Menu();
+            start_menu.Dock = DockStyle.Fill;
+
             currency_Menu = new Currency_Menu();
             currency_Menu.Dock = DockStyle.Fill;
 
             length_menu = new Length_Menu();
             length_menu.Dock = DockStyle.Fill;
 
-            data_converter_menu = new Data_Converter_Menu();
-            data_converter_menu.Dock = DockStyle.Fill;
+            //data_converter_menu = new Data_Converter_Menu();
+            //data_converter_menu.Dock = DockStyle.Fill;
 
             date_time_converter_menu = new Date_Time_Converter_Menu();
             date_time_converter_menu.Dock = DockStyle.Fill;
+
+            data_menu = new Data_Menu();
+            dashboard_btn.Dock = DockStyle.Fill;
 
             volume_converter_menu = new Volume_Converter_Menu();
             volume_converter_menu.Dock = DockStyle.Fill;
@@ -220,32 +235,47 @@ namespace UnitConversionApp
 
         private void btn_currency_Click(object sender, EventArgs e)
         {
+            this.Size = new Size(1250, 750);
             content_panel.Controls.Clear();
             content_panel.Controls.Add(currency_Menu);
+            caption_panel.BackColor = Color.BlueViolet;
+            lb_menu_title.Text = "Currency Exchange Menu";
         }
 
         private void btn_length_Click(object sender, EventArgs e)
-        { 
+        {
+            this.Size = new Size(940, 646);
             content_panel.Controls.Clear();
             content_panel.Controls.Add(length_menu);
+            caption_panel.BackColor = Color.Coral;
+            lb_menu_title.Text = "Length Measurement Menu";
         }
 
         private void btn_data_Click(object sender, EventArgs e)
         {
+            this.Size = new Size(940, 646);
             content_panel.Controls.Clear();
-            content_panel.Controls.Add(data_converter_menu);
+            content_panel.Controls.Add(data_menu);
+            caption_panel.BackColor = Color.LightGreen;
+            lb_menu_title.Text = "Data Transfer Menu";
         }
 
         private void btn_date_time_Click(object sender, EventArgs e)
         {
+            this.Size = new Size(650, 646);
             content_panel.Controls.Clear();
             content_panel.Controls.Add(date_time_converter_menu);
+            caption_panel.BackColor = Color.LightSteelBlue;
+            lb_menu_title.Text = "Date-Time Conversion Menu";
         }
 
         private void btn_volume_Click(object sender, EventArgs e)
         {
+            this.Size = new Size(940, 646);
             content_panel.Controls.Clear();
             content_panel.Controls.Add(volume_converter_menu);
+            caption_panel.BackColor = Color.GreenYellow;
+            lb_menu_title.Text = "Valume Calculation and Representation Menu";
         }
     }
 

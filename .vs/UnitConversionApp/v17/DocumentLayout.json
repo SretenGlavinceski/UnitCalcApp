@@ -1,7 +1,48 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Glavinceski\\source\\repos\\VP_PROJECT2024\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\unitconversionapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|solutionrelative:unitconversionapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|c:\\users\\pc\\source\\repos\\unitcalcapp\\unitconversionapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|solutionrelative:unitconversionapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|c:\\users\\pc\\source\\repos\\unitcalcapp\\unitconversionapp\\date_time_converter_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|solutionrelative:unitconversionapp\\date_time_converter_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|c:\\users\\pc\\source\\repos\\unitcalcapp\\unitconversionapp\\date_time_converter_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|solutionrelative:unitconversionapp\\date_time_converter_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|c:\\users\\pc\\source\\repos\\unitcalcapp\\unitconversionapp\\data_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|solutionrelative:unitconversionapp\\data_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|c:\\users\\pc\\source\\repos\\unitcalcapp\\unitconversionapp\\currency_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|solutionrelative:unitconversionapp\\currency_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|c:\\users\\pc\\source\\repos\\unitcalcapp\\unitconversionapp\\dashboard_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|solutionrelative:unitconversionapp\\dashboard_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|c:\\users\\pc\\source\\repos\\unitcalcapp\\unitconversionapp\\currencyexchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|solutionrelative:unitconversionapp\\currencyexchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\unitconversionapp\\length_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|solutionrelative:unitconversionapp\\length_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|c:\\users\\pc\\source\\repos\\unitcalcapp\\unitconversionapp\\dashboard_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E538A89B-5C36-4DDD-9127-70040C9C3385}|UnitConversionApp\\UnitConversionApp.csproj|solutionrelative:unitconversionapp\\dashboard_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,25 +50,135 @@
       "DocumentGroups": [
         {
           "DockedWidth": 73,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 189,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Date_Time_Converter_Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Date_Time_Converter_Menu.cs",
+              "RelativeDocumentMoniker": "UnitConversionApp\\Date_Time_Converter_Menu.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Date_Time_Converter_Menu.cs",
+              "RelativeToolTip": "UnitConversionApp\\Date_Time_Converter_Menu.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAgwFMAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T13:17:18.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Date_Time_Converter_Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Date_Time_Converter_Menu.cs",
+              "RelativeDocumentMoniker": "UnitConversionApp\\Date_Time_Converter_Menu.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Date_Time_Converter_Menu.cs [Design]",
+              "RelativeToolTip": "UnitConversionApp\\Date_Time_Converter_Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T13:17:00.347Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Form1.cs",
+              "RelativeDocumentMoniker": "UnitConversionApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Form1.cs [Design]",
+              "RelativeToolTip": "UnitConversionApp\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T12:09:20.781Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Form1.cs",
+              "RelativeDocumentMoniker": "UnitConversionApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Form1.cs",
+              "RelativeToolTip": "UnitConversionApp\\Form1.cs",
+              "ViewState": "AQIAANwAAAAAAAAAAAAuwBUBAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T12:13:31.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Data_Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Data_Menu.cs",
+              "RelativeDocumentMoniker": "UnitConversionApp\\Data_Menu.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Data_Menu.cs [Design]",
+              "RelativeToolTip": "UnitConversionApp\\Data_Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T13:17:01.696Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Currency_Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Currency_Menu.cs",
+              "RelativeDocumentMoniker": "UnitConversionApp\\Currency_Menu.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Currency_Menu.cs [Design]",
+              "RelativeToolTip": "UnitConversionApp\\Currency_Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T12:43:06.806Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dashboard_Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Dashboard_Menu.cs",
+              "RelativeDocumentMoniker": "UnitConversionApp\\Dashboard_Menu.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Dashboard_Menu.cs [Design]",
+              "RelativeToolTip": "UnitConversionApp\\Dashboard_Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T12:23:13.739Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CurrencyExchange.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\CurrencyExchange.cs",
+              "RelativeDocumentMoniker": "UnitConversionApp\\CurrencyExchange.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\CurrencyExchange.cs",
+              "RelativeToolTip": "UnitConversionApp\\CurrencyExchange.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T12:44:04.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Length_Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Length_Menu.cs",
+              "RelativeDocumentMoniker": "UnitConversionApp\\Length_Menu.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Length_Menu.cs [Design]",
+              "RelativeToolTip": "UnitConversionApp\\Length_Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T12:09:19.822Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dashboard_Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Dashboard_Menu.cs",
+              "RelativeDocumentMoniker": "UnitConversionApp\\Dashboard_Menu.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\UnitCalcApp\\UnitConversionApp\\Dashboard_Menu.cs",
+              "RelativeToolTip": "UnitConversionApp\\Dashboard_Menu.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T12:23:37.747Z",
+              "EditorCaption": ""
             }
           ]
         }

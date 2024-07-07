@@ -117,18 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="richTextBox1.Text" xml:space="preserve">
-    <value>Functionalities
-  Using live currency api to get the latest exchange rates
-
-  Graphing data for clear and understanding vizualization
-
-  Easy to use UI
-
-  Conversion different type of measurements
-
-  Drawing 3D shapes for better understanding</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1139,7 +1127,7 @@
         XV1dXV1dXl5eX19fX19fYGBgYWFhYmJiYmJiY2NjZGRkZWVlZWVlZmZmZ2dnaGhoaWlpampqampqa2tr
         bGxsbW1tbm5ub29vcHBwcXFxcnJyc3NzdHR0dXV1dnZ2d3d3eXl5enp6e3t7fHx8fn5+f39/gICAgoKC
         g4ODhYWFhoaGiIiIioqKjIyMjY2Nj4+PkZGRlJSUlpaWmJiYm5ubnp6eoaGhpKSkqKiorKyssLCwtbW1
-        u7u7wsLCysrK1tbW5+fn////7VdCxwAAAAlwSFlzAAALDwAACw8BkvkDpQAAEkNJREFUeF7tnXlD6joT
+        u7u7wsLCysrK1tbW5+fn////7VdCxwAAAAlwSFlzAAALDgAACw4BQL7hQQAAEkNJREFUeF7tnXlD6joT
         xiUtpKUssiibIrIIKN73fP9P9yZt2mYmaZpCOcIxv3+ulwOWTCYzTyaLDw6Hw+FwOBwOh8PhcDgcDofD
         4XA4HA6Hw+FwOBwOh8PhcDgcDofD4XA4HA6Hw+FwOBwOh+MC2uK/v5Q9eRU//Ur2ftT4xQbYdxuNX2yA
         fa/B+LUG4L3/iw2w95Pm/1ID7P1ANP9XGiB1/oRfZ4B9L+99zi8zAOx9zu0aYPK2WQ3no3WjMT8d9xPx
@@ -1281,7 +1269,7 @@
         XV1dXV1dXl5eX19fX19fYGBgYWFhYmJiYmJiY2NjZGRkZWVlZWVlZmZmZ2dnaGhoaWlpampqampqa2tr
         bGxsbW1tbm5ub29vcHBwcXFxcnJyc3NzdHR0dXV1dnZ2d3d3eXl5enp6e3t7fHx8fn5+f39/gICAgoKC
         g4ODhYWFhoaGiIiIioqKjIyMjY2Nj4+PkZGRlJSUlpaWmJiYm5ubnp6eoaGhpKSkqKiorKyssLCwtbW1
-        u7u7wsLCysrK1tbW5+fn////7VdCxwAAAAlwSFlzAAALEAAACxABrSO9dQAAEkNJREFUeF7tnXlD6joT
+        u7u7wsLCysrK1tbW5+fn////7VdCxwAAAAlwSFlzAAALDwAACw8BkvkDpQAAEkNJREFUeF7tnXlD6joT
         xiUtpKUssiibIrIIKN73fP9P9yZt2mYmaZpCOcIxv3+ulwOWTCYzTyaLDw6Hw+FwOBwOh8PhcDgcDofD
         4XA4HA6Hw+FwOBwOh8PhcDgcDofD4XA4HA6Hw+FwOBwOh+MC2uK/v5Q9eRU//Ur2ftT4xQbYdxuNX2yA
         fa/B+LUG4L3/iw2w95Pm/1ID7P1ANP9XGiB1/oRfZ4B9L+99zi8zAOx9zu0aYPK2WQ3no3WjMT8d9xPx
@@ -1423,7 +1411,7 @@
         XV1dXV1dXl5eX19fX19fYGBgYWFhYmJiYmJiY2NjZGRkZWVlZWVlZmZmZ2dnaGhoaWlpampqampqa2tr
         bGxsbW1tbm5ub29vcHBwcXFxcnJyc3NzdHR0dXV1dnZ2d3d3eXl5enp6e3t7fHx8fn5+f39/gICAgoKC
         g4ODhYWFhoaGiIiIioqKjIyMjY2Nj4+PkZGRlJSUlpaWmJiYm5ubnp6eoaGhpKSkqKiorKyssLCwtbW1
-        u7u7wsLCysrK1tbW5+fn////7VdCxwAAAAlwSFlzAAALEQAACxEBf2RfkQAAEkNJREFUeF7tnXlD6joT
+        u7u7wsLCysrK1tbW5+fn////7VdCxwAAAAlwSFlzAAALEAAACxABrSO9dQAAEkNJREFUeF7tnXlD6joT
         xiUtpKUssiibIrIIKN73fP9P9yZt2mYmaZpCOcIxv3+ulwOWTCYzTyaLDw6Hw+FwOBwOh8PhcDgcDofD
         4XA4HA6Hw+FwOBwOh8PhcDgcDofD4XA4HA6Hw+FwOBwOh+MC2uK/v5Q9eRU//Ur2ftT4xQbYdxuNX2yA
         fa/B+LUG4L3/iw2w95Pm/1ID7P1ANP9XGiB1/oRfZ4B9L+99zi8zAOx9zu0aYPK2WQ3no3WjMT8d9xPx
