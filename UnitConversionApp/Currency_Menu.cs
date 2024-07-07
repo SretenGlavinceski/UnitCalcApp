@@ -67,7 +67,7 @@ namespace UnitConversionApp
 
             client.Timeout = -1;
             var request = new RestRequest(Method.GET);
-            request.AddHeader("apikey", "cur_live_gfqSNzfeJBoLhzgGIODw1B35ZEILCran0m7yAJDM");
+            request.AddHeader("apikey", "cur_live_SKfOwZHA2XtolTTmh32YqcUatXvKuIb8iUiy1Sgu");
             IRestResponse response = client.Execute(request);
 
             return response.Content;
@@ -183,7 +183,7 @@ namespace UnitConversionApp
 
                 client.Timeout = -1;
                 var request = new RestRequest(Method.GET);
-                request.AddHeader("apikey", "cur_live_gfqSNzfeJBoLhzgGIODw1B35ZEILCran0m7yAJDM");
+                request.AddHeader("apikey", "cur_live_SKfOwZHA2XtolTTmh32YqcUatXvKuIb8iUiy1Sgu");
                 IRestResponse response = client.Execute(request);
 
                 dynamic responseObject = JsonConvert.DeserializeObject(response.Content);
